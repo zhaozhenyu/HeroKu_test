@@ -3,7 +3,7 @@ from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from . import  Post_method
 def index(request):
-    print(1)
+    print(11)
     return render(request, 'x.html')
 
 
